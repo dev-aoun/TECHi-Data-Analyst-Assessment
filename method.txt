@@ -1,0 +1,38 @@
+TECHi Article Collection and Preparation Method
+Collection date: 16 November 2026
+
+1. Article Collection
+
+Article listings were collected from six public TECHi categories: AI, Markets, Crypto, Breakthroughs, Policy and Guides. Python 3.11, Requests and BeautifulSoup were used to retrieve and parse the category pages.
+
+Article cards were selected using the article.techi-article-card CSS selector. Headlines were extracted from h2.techi-archive-title, authors from links beginning with /@, dates from the time element, and URLs from article links. Relative URLs were converted to absolute URLs.
+
+The first 20 valid article cards in each category were retained in displayed order, producing 120 section-level records.
+
+2. Article Content Extraction
+
+A separate script visited each unique article URL and extracted the page title, lead, headings and paragraphs. Non-editorial elements such as scripts, navigation, headers, footers and sidebars were removed before paragraph extraction.
+
+The extracted content was saved in data/article_content.json. Requests were made sequentially with a two-second delay. Failed or empty extractions were recorded for review.
+
+3. Data Preparation and Classification
+
+The finalization script recalculated headline word counts using a regular-expression word-token method.
+
+contains_a_number is TRUE when a headline contains at least one digit. names_a_company uses case-insensitive matching against a predefined list of 37 company names. Organizations absent from this list may be missed.
+
+Article formats are assigned to five working categories: News, Analysis, Explainer, Guide and Review. Classification uses headline keyword patterns, with numbered instructional steps in article text as additional evidence. These automated labels are preliminary and require manual review.
+
+4. Duplicate Handling and Validation
+
+Content extraction uses one copy of each unique article URL. The final article dataset retains separate records when an article appears in different categories.
+
+The expected dataset contains 120 section-level records and 111 unique article URLs. Nine URLs appear in more than one category. These records are retained because category membership is meaningful. Duplicate URL-section combinations are not allowed.
+
+Validation checks cover record counts, category coverage, duplicate pairs, required fields, headline word counts, format labels and article-content availability.
+
+5. Data Limitations
+
+The article dataset represents public TECHi listings at the collection date and may change as the website is updated. Automated company and format classifications may contain errors.
+
+The monthly traffic table is a separate assessment-provided dataset. It was not collected by the article scraper and was analyzed independently.

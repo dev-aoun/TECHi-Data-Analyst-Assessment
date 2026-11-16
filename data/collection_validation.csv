@@ -1,0 +1,11 @@
+﻿check,result
+120 section-level records,PASS
+Six sections,PASS
+20 records per section,PASS
+111 unique article URLs,PASS
+No duplicate URL within a section,PASS
+No missing required values,PASS
+Positive headline word counts,PASS
+All formats assigned correctly,PASS
+Content available for all unique URLs,PASS
+No missing article content,PASS

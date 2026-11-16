@@ -1,0 +1,44 @@
+
+TECHI TRAFFIC ANALYSIS
+======================
+
+Data period:
+Sep 2025 to Aug 2026
+
+Total records:
+12
+
+Total sessions in first month:
+57,500
+
+Total sessions in final month:
+102,805
+
+January-February 2026 reported change:
+47.95%
+
+March-August 2026 traffic change:
+6.46%
+
+March-August monthly compound growth:
+1.26%
+
+January-August reported change:
+60.63%
+
+Guides March-August change:
+-85.29%
+
+Crypto October-November change:
+145.54%
+
+Newsletter definition:
+Interpret newsletter_signups only after confirming whether the field represents new monthly signups or cumulative subscriber totals. Do not calculate acquisition growth or conversion rates until the definition is confirmed.
+
+IMPORTANT LIMITATIONS:
+- February 2026 is a potential measurement break.
+- No complete prior-year comparison is available.
+- November 2025 Crypto had an exceptional aggregator event.
+- Guides publication volume must be checked before retirement.
+- Newsletter metric definition must be confirmed.
+- These data do not establish a causal effect of publishing changes.

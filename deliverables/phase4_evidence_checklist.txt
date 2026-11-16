@@ -1,0 +1,29 @@
+TECHI ASSESSMENT — PHASE 4 EVIDENCE CHECKLIST
+=======================================================
+
+Traffic records: 12
+Article section-level records: 120
+Unique article URLs: 111
+Cross-section repeated URLs: 9
+Memo word count: 599 (maximum 700)
+
+GENERATED IN THIS PHASE:
+[PASS] deliverables\techi_traffic_memo.md
+[PASS] deliverables\article_findings.csv
+[PASS] analysis/phase4_format_counts.csv
+[PASS] analysis/phase4_article_section_counts.csv
+
+IMPORTANT MANUAL CHECKS BEFORE SUBMISSION:
+[CHECK] Manually verify automated format classifications.
+[CHECK] Manually verify company-mention flags against headlines.
+[CHECK] Confirm whether newsletter_signups means monthly new signups or cumulative subscribers.
+[CHECK] Audit analytics tracking around 1 February 2026.
+[CHECK] Confirm whether the assignment requires a prior-year comparison dataset.
+[CHECK] Check the final memo and all article examples for accuracy.
+
+INTERPRETATION WARNINGS:
+- Do not present January-August reported growth as genuine growth.
+- Do not claim the 30% YoY figure is proven.
+- March-August growth is descriptive, not a corrected full-year estimate.
+- Do not claim the article sample proves historical publishing volume.
+- Do not invent revenue or editorial cost figures for Guides.

@@ -1,0 +1,5 @@
+finding,records,total_article_records,percentage
+Headlines flagged as mentioning a company,50,120,41.67
+Headlines flagged as containing a number,74,120,61.67
+Unique article URLs,111,120,92.5
+URLs appearing in more than one section,9,120,7.5
